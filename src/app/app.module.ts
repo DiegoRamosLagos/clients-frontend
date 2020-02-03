@@ -15,7 +15,8 @@ import {FormsModule} from '@angular/forms'; // Agregado 30-01-2020
 const routes: Routes = [ // Agregado 30-01-2020
   {path: '', redirectTo: '/clients', pathMatch: 'full'},
   {path: 'directivas', component: DirectivaComponent},
-  {path: 'clients', component: ClientsComponent}
+  {path: 'clients', component: ClientsComponent},
+  {path: 'clients/form', component: FormComponent}
 ];
 
 @NgModule({
